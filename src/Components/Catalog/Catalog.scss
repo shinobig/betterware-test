@@ -1,0 +1,114 @@
+
+
+.product-box{
+    background-color: white;
+    box-shadow: 1px 1px 3px 0px #d7ccc8;
+    margin: .3em;
+    padding: .7em;
+    border-radius: 3px;
+    min-height: 190px;
+}
+
+.catalog{
+    overflow-y:scroll;
+}
+
+@media screen and (max-width: 600px){
+    .product-box{
+        background-color: white;
+        box-shadow: 1px 1px 3px 0px #d7ccc8;
+        margin: .3em;
+        padding: .7em;
+        border-radius: 3px;
+        height: 350px;
+        text-align: center;
+
+    }
+
+    .catalog{
+        
+        height: 95vh;
+        overflow:scroll;
+        top: 30;
+    }
+
+    .tags{
+        font-size:10px;
+        margin-top: 3px;
+        border-radius: 2px;
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+ 
+}
+
+.box-padd{
+    padding: 1px;
+}
+
+
+.product-image{
+    max-width: 100%;
+}
+
+.product-name{
+    color:#8d6e63 ;
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+.price{
+    font-size: 17px;
+    font-weight: 400;
+    color: #689f38;
+}
+
+.add-to-cart{
+    border:none;
+    background-color: #80d8ff;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.add-to-cart:hover{
+    background-color: #1976d2;
+    color:white;
+}
+
+
+.tags{
+    font-size:10px;
+    margin-top: 3px;
+    border-radius: 2px;
+    width: 45%;
+    text-align: center;
+}
+
+.hogar{
+@extend .tags;
+background-color: #c5e1a5;
+color:#33691e;
+}
+.electricos{
+    @extend .tags;
+background-color: #ffecb3;
+color:#ff6f00;
+}
+.otros{
+    @extend .tags;
+background-color: #d7ccc8;
+color: #5d4037;
+}
+.habitacion{
+    @extend .tags;
+background-color: #b3e5fc;
+color:#0277bd;
+}
+.vehiculos{
+    @extend .tags;
+background-color: #ffcdd2;
+color:#d32f2f;
+}
