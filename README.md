@@ -33,7 +33,7 @@ En el directorio se pueden correr los siguientes scripts:
 
 ### `npm start`
 
-Corre la app in Development Mode: <br />
+Corre la app en Development Mode: <br />
  [http://localhost:3000](http://localhost:3000) .
 
 La pagina se va a refrescar si se hacen cambios<br />
