@@ -34,8 +34,9 @@ return(
     </div>
 
 {cartItem}
-<div className='row remove-all'>
-        <p onClick={this.props.handleRemoveAll}>Quitar Todo <i className="fa fa-trash-alt"></i></p>
+<div className='row '>
+    <p className='comprar-btn'>Comprar</p>
+        <p className='remove-all' onClick={this.props.handleRemoveAll}>Quitar Todo <i className="fa fa-trash-alt"></i></p>
         </div>
     </div>
     </div>

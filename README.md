@@ -6,7 +6,7 @@ software:
 - React
 - Create React App
 - node-sass
-- bootstrap
+- bootstrap (la app es responsiva)
 - Font Awesome
 
 ## Instrucciones
@@ -21,6 +21,10 @@ Es necesario tener instalado npm (node)
 3. En su consola escriba 'npm install' , esto instalara las dependencias, puede tomar unos minutos
 
 4. Una vez instalado todo, escriba en su consola 'npm start' para correr la app
+
+
+## Nota
+- El boton de comprar no esta habilitado
 
 
 ## Scripts
