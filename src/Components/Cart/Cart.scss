@@ -39,6 +39,16 @@
     border-bottom: 1px solid #efebe9 ;
 }
 
+.comprar-btn{
+    @extend .display-total;
+    text-align: center;
+}
+
+.comprar-btn:hover{
+    cursor: pointer;
+    color:#1b5e20;
+}
+
 .cart-item{
     border-bottom: 1px solid #efebe9 ;
     padding: 1em;
